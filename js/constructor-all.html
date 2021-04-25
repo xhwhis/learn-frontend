@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> constructor 属性返回变量或对象的构造函数。</p>
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML =
+    "john".constructor + "<br>" +
+    (3.14).constructor + "<br>" +
+    false.constructor + "<br>" +
+    [1,2,3,4].constructor + "<br>" +
+    {name:'lws', age:21}.constructor + "<br>" +
+    new Date().constructor + "<br>" +
+    function () {}.constructor;
+</script>
+
+</body>
+</html>
